@@ -3,8 +3,8 @@ var mysql = require('mysql');
 
 var connection = mysql.createConnection({
   host     : '127.0.0.1',
-  user     : process.env.MYSQL_USER,
-  password :  process.env.MYSQL_PWD,
+  user     : process.env.MYSQL_USER || 'root',
+  password :  process.env.MYSQL_PWD || 'passw0rd',
   database : 'travis_db'
 });
 
