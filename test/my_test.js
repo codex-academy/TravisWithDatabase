@@ -18,7 +18,7 @@ describe("Test mocha from Travis", function(){
 
         console.log(err);
 
-        assert.equal(0, users[0].userCount);
+        assert.equal(1, users[0].userCount);
         done();
     });
 
