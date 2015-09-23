@@ -1,10 +1,12 @@
 var assert = require('assert');
 var mysql = require('mysql');
 
+var password = process.env.MYSQL_PWD !== null ? process.env.MYSQL_PWD : 'passw0rd';
+
 var connection = mysql.createConnection({
   host     : '127.0.0.1',
   user     : process.env.MYSQL_USER || 'root',
-  password :  process.env.MYSQL_PWD || 'passw0rd',
+  password : password,
   database : 'travis_db'
 });
 
