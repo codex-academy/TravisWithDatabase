@@ -15,7 +15,7 @@ describe("Test mocha from Travis", function(){
   it("should pass", function(done){
 
     connection.query('select count(*) as userCount from users', function(err, users) {
-
+        console.log(err);
         assert.equal(0, users[0].userCount);
         done();
     });
