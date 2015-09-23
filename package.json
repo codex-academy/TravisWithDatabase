@@ -1,0 +1,14 @@
+{
+  "name": "codeX_Programming101",
+  "version": "0.0.0",
+  "description": "##Required tutorials to be completed:",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha" : "*"
+  }
+}
