@@ -1,5 +1,5 @@
 # Travis with a database
 
-https://travis-ci.org/avermeulen/TravisWithDatabase.svg
+[![Build Status](https://travis-ci.org/avermeulen/TravisWithDatabase.svg)](https://travis-ci.org/avermeulen/TravisWithDatabase)
 
 How to use travis with a MySQL database
