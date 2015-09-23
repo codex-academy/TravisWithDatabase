@@ -2,5 +2,7 @@
 
 before_script:
   - npm install
+  - mysql -u root -e 'create database travis_db;'
+  - mysql -u root < tables.sql
 
 script: mocha
