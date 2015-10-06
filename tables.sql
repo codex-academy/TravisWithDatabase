@@ -4,4 +4,4 @@ create table users(
   username varchar(100)
 );
 
-insert into users(username) values ('denvereezy');
+insert into users(username) values ('theUser');
